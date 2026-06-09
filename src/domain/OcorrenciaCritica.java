@@ -2,6 +2,10 @@ package domain;
 
 public class OcorrenciaCritica extends Ocorrencia {
 
+    public OcorrenciaCritica() {
+        super();
+    }
+
     public OcorrenciaCritica(int id, String regiao, String dataLeitura, double nivelRio, double volumeChuva) {
         super(id, regiao, dataLeitura, nivelRio, volumeChuva);
     }
